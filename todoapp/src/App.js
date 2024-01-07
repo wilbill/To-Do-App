@@ -46,7 +46,7 @@ class FourthComponent extends Component {
   }
 }
 
-class FifthComponent extends Component{
+class FifthComponent extends Component {
   render() {
     return <div className="FifthComponent">This is the fifth Component</div>;
   }
