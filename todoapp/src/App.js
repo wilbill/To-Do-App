@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Component } from "react"; //import component from react
 import FirstComponent from "./components/learning-examples/FirstComponent";
+import SecondComponent from "./components/learning-examples/SecondComponent";
 
 function App() {
   return (
@@ -30,9 +31,6 @@ function App() {
   );
 }
 
-function SecondComponent() {
-  return <div className="SecondComponent">This is the second Component</div>;
-}
 
 function ThirdComponent() {
   return <div className="ThirdComponent">This is my third component</div>;
