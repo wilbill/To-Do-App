@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Component } from "react"; //import component from react
+import FirstComponent from "./components/learning-examples/FirstComponent";
 
 function App() {
   return (
@@ -28,10 +29,7 @@ function App() {
     </div>
   );
 }
-//Functional components
-function FirstComponent() {
-  return <div className="FirstComponent">First Component</div>; //whatever we return shd be in brackets
-}
+
 function SecondComponent() {
   return <div className="SecondComponent">This is the second Component</div>;
 }
