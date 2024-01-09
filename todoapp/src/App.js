@@ -1,8 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Component } from "react"; //import component from react
-import FirstComponent from "./components/learning-examples/FirstComponent";
-import SecondComponent from "./components/learning-examples/SecondComponent";
+import LearningComponent from "./components/learning-examples/LearningComponent";
 
 function App() {
   return (
@@ -11,11 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-          <FirstComponent></FirstComponent>
-          <SecondComponent></SecondComponent>
-          <ThirdComponent></ThirdComponent>
-          <FourthComponent></FourthComponent>
-          <FifthComponent></FifthComponent>
+         <LearningComponent></LearningComponent>
         </p>
         <a
           className="App-link"
@@ -30,22 +24,4 @@ function App() {
     </div>
   );
 }
-
-
-function ThirdComponent() {
-  return <div className="ThirdComponent">This is my third component</div>;
-}
-//class components, shd have method/function called render
-class FourthComponent extends Component {
-  render() {
-    return <div className="FourthComponent">This is my Fourth component</div>;
-  }
-}
-
-class FifthComponent extends Component {
-  render() {
-    return <div className="FifthComponent">This is the fifth Component</div>;
-  }
-}
-
 export default App;
